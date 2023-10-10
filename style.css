@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ededed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #121212;
+}
+
+.input-and-button {
+  margin: 20px;
+  margin-top: 0;
+}
+
+input,
+button {
+  cursor: pointer;
+  padding: 4px;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+  appearance: none;
+  border: 2px solid yellowgreen;
+  background-color: #525252;
+  border-radius: 18px;
+  transition: 0.5s all ease;
+}
+
+input {
+  cursor: text;
+  width: 50px;
+  margin-right: 5px;
+}
+
+button:hover {
+  transition: 0.5s all ease;
+  background-color: #ededed;
+  color: #525252;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Card for Pizza*/
+
+.cardPizza {
+  border: 2px solid yellowgreen;
+  border-radius: 15px;
+  width: 264px;
+  background-color: #525252;
+}
+
+.cardPizza img {
+  width: 250px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.cardPizza p {
+  text-align: center;
+  margin: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/*Style for Errors*/
+
+.errorStyle {
+  text-align: center;
+  font-size: 25px;
+  width: 500px;
+  background-color: #ffbfbf;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  margin: 20px;
+}
